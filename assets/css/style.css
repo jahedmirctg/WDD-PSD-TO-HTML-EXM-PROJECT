@@ -1,0 +1,323 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: Georgia,Times,Times New Roman,serif; 
+}
+
+/*header nav section strat*/
+
+#header-nav-section{
+    background: url("../image/final_bs.png"); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 444px;
+
+}
+.navbar{
+    background: transparent;
+    color: #8d8d8d;
+    width: 100%;
+    height: 120px;
+}
+.navbar-brand{
+    color: #8d8d8d;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.nav-link{
+    color: #8d8d8d;
+}
+.navbar-nav{
+    margin-bottom: 30px;
+}
+.navbar-toggler-icon{
+    color: #000!important;
+    text-align: center;
+    display: grid;
+    align-content: center;
+}
+/*header nav section end*/
+/*header craousel section stert*/
+.header-craousel{
+/* margin-top: -350px;  */
+   
+}
+carousel-item{
+    height: 418px!important;
+}
+.carousel-control-next-icon{
+    width:  30px;
+    height: 30px;
+    background: #594129;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.carousel-control-prev-icon{
+    width:  30px;
+    height: 30px;
+    background: #594129;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.carousel-indicators {
+    justify-content:center;
+    margin-bottom: -30px;
+   
+  }
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+ }
+ .carousel-indicators .active {
+   background-color: #959595;
+}
+/*header craousel section end*/
+/* portfolio section start*/
+#portfolio{
+    color: #444343;
+    height: 455px;
+    padding-bottom:18px;
+    padding-top: 15px;
+}
+#portfolio h1{
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+#portfolio h3{
+ margin-top: 45px;
+ font-size: 24px;
+}
+#portfolio h4{
+    margin-bottom: 18px;
+    font-size: 22px;
+}
+#portfolio p{
+    font-size: 14px;
+}
+/* portfolio section end*/
+/*gallary section start*/
+#gallery{
+    width: 100%;
+    min-height: 595px;
+    background: url("../image/final_bs.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-bottom: 125px;
+
+}
+.wl{
+    padding: 0 7px 0 0;
+}
+.img-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.box-slider{
+    position: absolute;
+    min-height: 110px;
+    width: 100%;
+    background: #000;
+    opacity: 0.8;
+    color: #fff;
+    font-size: 14px;
+    font-family: Georgia,Times,Times New Roman,serif; 
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    display: grid;
+    align-content: center;
+    border-left: 2px solid #d7d7d7;
+    border-right: 2px solid #d7d7d7;
+    border-bottom: 2px solid #d7d7d7;
+ 
+} 
+.carousel-item{
+    margin-top: 5px;
+}
+/*gallary section end*/
+
+/*contact and about us section start*/
+#contact-about{
+    width: 100%;
+    min-height: 560px;
+    color: #444343;
+}
+#contact-about h6{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 12px;
+}
+#contact-about p{
+    font-size: 14px;
+    font-family: Georgia,Times,Times New Roman,serif; 
+    margin-top: 22px;
+}
+#contact-about p1{
+   font-size: 14px;
+   font-style: italic;
+}
+#contact-about p2{
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 30px;
+    display: inline-block;
+}
+.abu-social{
+    word-spacing: 10px;
+}
+/*contact form start*/
+.input-icons i { 
+    position: absolute; 
+} 
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 10px; 
+} 
+.icon { 
+    padding: 10px; 
+    color: #b9b9b9; 
+    min-width: 50px; 
+    text-align: center; 
+} 
+.input-field { 
+    width: 100%; 
+    padding: 10px; 
+    text-indent: 30px;
+    font-style: italic;    
+} 
+.form-control {
+    margin-bottom: 10px;
+    background: #ebebeb;
+}
+.btn-submit{
+        background: #ebebeb;
+        color: #7f7f7f;
+        font-size: 18px;
+        padding: 7px 30px;
+        font-family: Georgia,Times,Times New Roman,serif;
+     
+ 
+}
+/*contact and about us section end*/
+
+/*footer section start*/
+footer{
+    width: 100%;
+    min-height: 140px;
+    font-family: Georgia,Times,Times New Roman,serif; 
+    font-size: 14px;
+}
+footer p{
+    margin: 30px auto;
+
+}
+.social{
+    margin: 30px auto;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.social li{
+    display: inline;
+    margin-right: 10px;
+}
+
+
+
+/*<!--For X-small device-->*/
+
+@media (max-width: 767px) {
+    /* #header-nav-section{
+        position: relative;
+        height: auto;
+        z-index: 1;
+    } */
+    .navbar{
+        height: auto;
+    }
+    .navbar-brand{
+        font-size: 0.80rem;
+    }
+    .header-craousel{
+        width: 100%;
+    } 
+    #portfolio{
+        height: auto;
+    }
+    .p-text{
+        text-align: center;
+        display: block;
+    }
+    .abu-social{
+    text-align: center;
+    display: inline-block;
+    }
+    .pofrile-about{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .pofrile-about-text{
+        text-align: center;
+    }
+    footer{
+        text-align: center;
+    }
+    .social{
+        text-align: center;
+    }
+    
+}
+
+
+/*<!--For small device-->*/
+
+@media (min-width:768px) and (max-width: 991px) {
+    .navbar{
+        height: auto;
+    }
+    #portfolio{
+        height: auto;
+    }
+}
+
+
+/*<!--For medium device-->*/
+
+@media (min-width:992px) and (max-width: 1199px) {
+  
+}
+
+
+/*<!--For Large device-->*/
+@media (min-width:1200px) {
+   
+}
+
+
